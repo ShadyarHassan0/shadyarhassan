@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://up-ipa.xyz/share/R6ZPayHzifHQmrkF/direct</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://archive.org/download/img-5626_202304/IMG_5626.jpeg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://archive.org/download/img-5626_202304/IMG_5626.jpeg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.frontierdesign.videostar</string>
+				<key>bundle-version</key>
+				<string>11.2.8</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>VideoStar Pro</string>
+				<key>title</key>
+				<string> 
+VideoStar Pro
+       
+
+       
+Shadyar Store📦
+
+"لەبوونی هەر کێشەیەک دەتوانی نامە بۆ پەیجی سناپ چات  بنێریت"
+Snapchat : shadyar.hassan
+</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

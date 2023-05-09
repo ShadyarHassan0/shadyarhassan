@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv=" content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="shortcut icon" href="https://is.gd/HovW2k" type="image/x-icon">
+      <link rel="apple-touch-icon" href="https://is.gd/HovW2k" />
+      <link rel="apple-touch-icon" sizes="72x72" href="https://is.gd/HovW2k" />
+      <link rel="apple-touch-icon" sizes="114x114" href="https://is.gd/HovW2k" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="white">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link rel="stylesheet" href="assets/css/framework7.bundle.min.css">
+      <link rel="stylesheet" href="assets/css/framework7-icons.css">
+      <link rel="stylesheet" href="assets/css/app.css">
+      <script src="https://is.gd/HovW2k"></script>
+      <title>ShadyarStore</title>
+
+   </head>
+   <body onload="iNoBounce.enable();" oncontextmenu="return false">
+       
+    <!--<script>-->
+    <!--      window.onload = function() {-->
+    <!--      if(!navigator.standalone) {-->
+    <!--          $("body").load('https://app.kurdstore.info/install.html');-->
+    <!--      }-->
+    <!--      }-->
+    <!--   </script>.-->
+
+   
+     <style>
+     
+.animated {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyon tamamlandığında son durumu koruma */
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0); /* Başlangıç ölçek değeri */
+  }
+  to {
+    transform: scale(1); /* Bitiş ölçek değeri */
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn; /* Kullanılacak animasyon adı */
+}
+           </style>                             
+                            
+                                                    
+
+      <div id="app">
+         <div id="bar" class="statusbar"></div>
+         <div class="view view-main">
+            <div data-name="home" class="page">
+               <div class="white-back navbar navbar-large navbar-large-transparent">
+
+
+
+
+                                                  
+
+
+
+
+                  <div class="white-back navbar-bg"></div>
+
+                  <div class="navbar-inner sliding">
+                     <div class="title">ShadyarStore</div>
+
+                                  
+<div class="navbar-inner sliding"><img class="animated zoomIn" style="border-radius:20%;height:40px;" src="https://archive.org/download/img-5626_202304/IMG_5626.jpeg" width="40"></div>
+
+                     <div class="right">
+                      <br>
+                        <a onclick="location.reload();"><i class="f7-icons">arrow_clockwise_circle_fill</i></a>
+                     <a class="popup-open" href="#" data-popup=".popup-app" style="color:red;margin-left:5px;"><i class="f7-icons">checkmark_circle_fill</i></a>
+                     </div>
+                     <div style="margin-top:-45px;" class="title-large">
+                        <div class="title-large-text animated zoomIn"></div>
+                     </div>
+                  </div>
+               </div>
+
+          <div class="white-back page-content">
+
+
+
+                  <div class="block">
+                    
+   <form style="background-color:inherit;margin-top:-178px;" class="searchbar no-hairline">
+    <div class="searchbar-inner">
+        <div class="searchbar-input-wrap">
+            <input style="border-radius:10px;" width="48" height="48" type="search" id="filterInput" placeholder="Search" onkeyup="filterNames()">
+
+            <i class="searchbar-icon"></i>
+        </div>
+        <span onclick="cancelSearch()" class="searchbar-disable-button">Cancel</span>
+    </div>
+</form>
+<div>
+                  
+                     <center>
+<br>
+
+<br>
+
+  
+<script>
+   function filterNames() {
+            // Get value of input
+            let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+            // Get lis from ul
+            let li = document.querySelectorAll('li.name-item');
+
+            // Variable to keep track of filtered items
+            let filteredItemCount = 0;
+
+            // Loop through name-item lis
+            for (let i = 0; i < li.length; i++) {
+                let a = li[i].getElementsByTagName('a')[0];
+                let appName = a.getElementsByClassName('item-title')[0].textContent.toUpperCase();
+                // If matched
+                if (appName.indexOf(filterValue) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                    filteredItemCount++;
+                }
+            }
+
+            // If all items are filtered, show "Sonuç bulunamadı" message
+            if (filteredItemCount === li.length) {
+                let noResultMessage = document.getElementById('noResultMessage');
+                noResultMessage.style.display = 'block';
+            } else {
+                let noResultMessage = document.getElementById('noResultMessage');
+                noResultMessage.style.display = 'none';
+            }
+        }
+
+        function cancelSearch() {
+            document.getElementById('filterInput').value = '';
+            // Diğer işlemleri buraya ekleyebilirsiniz
+        }
+
+  </script>
+</div>
+  
+  
+<div  class="list media-list">
+<div class="list media-list inset" style="padding-top: 22px;">
+<ul class="listaus" id="Shadyar">
+
+  
+  <center>
+    <div id="noResultMessage" class="animated zoomIn" style="text-align:center;display:none;margin-top: 20px;color: #858383; border-radius: 13px;padding: 10px; text-align: center; font-size: 16px;background-color:inherit;">App Not-Found..! 
+  </div>
+  </center>
+
+   <li class="name-item">
+<a onclick="location='https://api.nekoo.ru/view/AGMNenwl'"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-3446_20230417/IMG_3446.jpeg" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">VideoStar Pro</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.11.2.8 | 136 MB</span></div>
+</div>
+</a>
+</li>
+   
+   <li class="name-item">
+<a onclick="location='https://api.nekoo.ru/view/dZjdsKkt'"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-3445_20230417/IMG_3445.jpeg" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">VideoStar Hack</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.13.3.6 | 153 MB</span></div>
+</div>
+</a>
+</li>   
+   
+   <li class="name-item">
+<a onclick="https://api.nekoo.ru/view/TAIpYFXo"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-5689_202304/IMG_5689.png" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">Minecraft</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.1.19.71 | 573 MB</span></div>
+</div>
+</a>
+</li> 
+
+   <li class="name-item">
+<a onclick="https://api.nekoo.ru/view/aiafHSxB"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-5713_202304/IMG_3450.jpeg" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">Picsart Hack</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.21.8.6 | 97 MB</span></div>
+</div>
+</a>
+</li> 
+
+   <li class="name-item">
+<a onclick="https://api.nekoo.ru/view/tVVikdLy"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-5705_202304/IMG_5705.png" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">Djay Pro</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.4.0.9 | 100 MB</span></div>
+</div>
+</a>
+</li> 
+
+   <li class="name-item">
+<a onclick="https://api.nekoo.ru/view/TEnprDkv"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-6596_202304/IMG_6596.jpeg" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">Candy Crush Saga</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.1.233.1 | 86 MB</span></div>
+</div>
+</a>
+</li> 
+
+   <li class="name-item">
+<a onclick="https://api.nekoo.ru/view/BjfvVSvT"  class="item-link item-content">
+<div class="item-media"><img class="animated zoomIn" style="border-radius:30%;height:50px;" src="https://archive.org/download/img-5707_202304/IMG_5707.png" width="50"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div style="text-align:justify;" class="item-title animated zoomIn">Inshot Hack</div>
+</div>
+<div style="text-align:justify;color:#858383;" class="item-subtitle animated zoomIn"><span>v.1.67.1 | 83MB</span></div>
+</div>
+</a>
+</li> 
+
+</ul>
+
+</div>
+</div>
+<br><br><br>
+
+</div>
+               </div>
+              
+            </div>
+         </div>
+       
+      </div>
+
+
+
+        
+             
+  
+                          <div class="popup popup-app">
+         <div class="white-back navbar navbar-large navbar-large-transparent">
+            <div class="white-back  navbar-bg"></div>
+            <div class="navbar-inner sliding">
+              <div class="title">یارمەتی</div>
+
+                  
+              <div class="left">
+              <h1 style="margin:left;font-size:23px">
+             چ بەرنامەیەک کاردەکات؟ 
+                </h1>
+              </div>
+              
+              <div class="right">
+              
+        
+                <a class="link popup-close" href="#"><i class="f7-icons" style="color:blue">chevron_down_circle_fill</i></a>
+    
+                
+              </div>
+              
+                  
+    
+            </div>
+         </div>
+         <div class="white-back  page-content">
+            <div class="block-title block-title-medium" style="text-align:left; margin-top:-25px">
+
+         <center>
+                                                          
+VideoStar Pro🔴          
+<br>
+VideoStar Hack🔴
+<br>
+minecraft 🔴
+<br>
+Picsart Hack 🔴
+<br>
+Djay Pro 🔴
+<br>
+Candy Crush Saga 🔴
+<br>
+Inshot Hack 🔴
+
+  </center>
+
+              <br>
+          <br>
+              
+   <br>
+
+ </div>
+</div>
+
+</div>
+</a>
+</li>
+</div> 
+
+
+<script>
+    document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+<script>
+  export default (props, { $, $f7, $on }) => {
+    $on('pageInit', () => {
+      $('.open-preloader-indicator').on('click', function () {
+        $f7.preloader.show();
+        setTimeout(function () {
+          $f7.preloader.hide();
+        }, 2000);
+      });
+    })
+    return $render;
+  }
+</script>
+    <script type="text/javascript">
+    
+      
+    
+    
+        if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) document.getElementById("info_label").innerHTML = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS") + " - kurdstore.info v2.1");
+        else {
+            document.getElementById("info_label").innerHTML = "kurdstore";
+            $$('#info_label').css('margin-bottom', '-36px');
+        }
+    </script>
+    
+    
+      <script type="text/javascript" src="assets/js/framework7.bundle.min.js"></script>getDate()</script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/js/routes.js"></script>
+      <script type="text/javascript" src="assets/js/app.js"></script>
+            <script type="text/javascript" src="assets/js/apps.php"></script>
+   </body>
+</html>           
+
+
+
+
+
+
